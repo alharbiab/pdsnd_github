@@ -22,7 +22,7 @@ def get_filters():
         if city in CITY_DATA.keys():
             break
         else:
-            print('Please choose correct name of city!')
+            print('Please enter a correct name of city!')
 
 
 
