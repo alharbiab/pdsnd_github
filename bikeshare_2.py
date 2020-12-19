@@ -183,7 +183,7 @@ def user_stats(df):
 
 def segement_data(df):
     """Display rows of raw data upon the request of user"""
-    ask=input('Would you like to see some raw data? Enter yes or no.\n').lower().strip()
+    ask=input('Would you like to see raw data? Enter yes or no.\n').lower().strip()
     while True:
         if ask != 'yes':
             break
